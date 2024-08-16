@@ -24,7 +24,9 @@ int main()
 {
     int size = 10;
 
-    for (int i = 1; i <= 10; i++)
+    cout << "pattern 3 : \n";
+
+    for (int i = 1; i <= size; i++)
     {
         drawSpaces(size - i);
         drawStarsLine(i);
