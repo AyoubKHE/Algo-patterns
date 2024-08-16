@@ -24,6 +24,8 @@ int main()
 {
     int size = 10;
 
+    cout << "pattern 4 : \n";
+
     for (int i = size; i >= 1; i--)
     {
         drawSpaces(size - i);
