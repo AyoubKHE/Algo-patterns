@@ -16,6 +16,8 @@ int main()
 {
     int size = 10;
 
+    cout << "pattern 1 : \n";
+
     for (int i = 1; i <= 10; i++)
     {
         drawStarsLine(i);
